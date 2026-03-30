@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml — digitalcorail.com
+  Généré selon Claude SEO v1.7.0
+  Note : <priority> et <changefreq> sont ignorés par Google (confirmé).
+  Seuls <loc> et <lastmod> ont un impact réel.
+  Dernière mise à jour : 2026-03-30
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ============================================================
+       PAGE PRINCIPALE
+       ============================================================ -->
+  <url>
+    <loc>https://www.digitalcorail.com/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url>
+
+  <!-- ============================================================
+       PAGES SERVICES — À CRÉER (priorité #1 pour le SEO local)
+       Whitespark 2026 : pages de service dédiées =
+       facteur #1 SEO local organique ET #2 visibilité IA
+       ============================================================ -->
+
+  <!-- Service : Home Staging Virtuel -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/home-staging-virtuel-ia-reunion/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- Service : Vidéos IA Immobilier -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/videos-ia-immobilier-reunion/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- Service : Vidéos IA Automobile -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/videos-ia-automobile-reunion/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- Service : Revalorisation Visuelle Luxe -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/revalorisation-visuelle-ia-luxe-reunion/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- ============================================================
+       PAGES SECTEURS — À CRÉER
+       ============================================================ -->
+
+  <!-- Secteur Immobilier -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/immobilier-reunion/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- Secteur Automobile -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/automobile-reunion/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- ============================================================
+       PAGES INSTITUTIONNELLES — À CRÉER
+       ============================================================ -->
+
+  <!-- À propos -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/a-propos/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- Contact -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/contact/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+  <!-- Portfolio / Réalisations -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/realisations/</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url> -->
+
+</urlset>
