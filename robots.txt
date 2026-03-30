@@ -1,0 +1,76 @@
+# robots.txt — digitalcorail.com
+# Généré selon les recommandations Claude SEO v1.7.0
+# Dernière mise à jour : 2026-03-30
+
+# ============================================================
+# CRAWLERS MOTEURS DE RECHERCHE — AUTORISATION TOTALE
+# ============================================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: facebot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# ============================================================
+# CRAWLERS IA — STRATÉGIE : AUTORISER LA VISIBILITÉ IA
+# Logique : ChatGPT convertit à 15.9% vs Google organic à 1.76%
+# Digital Corail VEUT être cité par les IA comme référence 974
+# ============================================================
+
+# OpenAI — Autoriser le browsing ChatGPT (trafic référent)
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity — Source de trafic IA croissante
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Google-Extended = entraînement Gemini UNIQUEMENT (pas Search)
+# Bloquer pour protéger le contenu tout en gardant Google Search
+User-agent: Google-Extended
+Disallow: /
+
+# OpenAI entraînement (différent du browsing)
+User-agent: GPTBot
+Disallow: /
+
+# ByteDance / TikTok — entraînement uniquement, pas de valeur
+User-agent: Bytespider
+Disallow: /
+
+# Common Crawl — dataset ouvert, pas de valeur business directe
+User-agent: CCBot
+Disallow: /
+
+# ============================================================
+# RÈGLE GÉNÉRALE
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# ============================================================
+# SITEMAP
+# ============================================================
+
+Sitemap: https://www.digitalcorail.com/sitemap.xml
