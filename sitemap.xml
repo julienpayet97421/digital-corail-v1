@@ -63,6 +63,18 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
     </video:video>
+
+    <!-- Short 4 -->
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zhYJrHNTA-I/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Short Vidéo Création Contenu IA — Digital Corail La Réunion</video:title>
+      <video:description>Vidéo courte verticale produite par intelligence artificielle pour la création de contenu digital des entreprises réunionnaises. Production Digital Corail, agence IA 974.</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/zhYJrHNTA-I</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/zhYJrHNTA-I</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
   </url>
 
   <!-- ============================================================
