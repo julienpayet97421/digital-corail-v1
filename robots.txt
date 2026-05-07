@@ -1,6 +1,7 @@
 # robots.txt — digitalcorail.com
-# Généré selon les recommandations Claude SEO v1.7.0
-# Dernière mise à jour : 2026-03-30
+# Stratégie Digital Corail : AUTORISER le browsing IA (visibilité)
+#                           BLOQUER l'entraînement IA (protection contenu)
+# Dernière mise à jour : 2026-05-07
 
 # ============================================================
 # CRAWLERS MOTEURS DE RECHERCHE — AUTORISATION TOTALE
@@ -10,6 +11,9 @@ User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
 Allow: /
 
 User-agent: Bingbot
@@ -27,39 +31,74 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
 # ============================================================
-# CRAWLERS IA — STRATÉGIE : AUTORISER LA VISIBILITÉ IA
+# CRAWLERS IA — BROWSING TEMPS RÉEL : AUTORISÉ
 # Logique : ChatGPT convertit à 15.9% vs Google organic à 1.76%
 # Digital Corail VEUT être cité par les IA comme référence 974
 # ============================================================
 
-# OpenAI — Autoriser le browsing ChatGPT (trafic référent)
+# OpenAI — Browsing ChatGPT (trafic référent quand un user pose une question)
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 # Perplexity — Source de trafic IA croissante
 User-agent: PerplexityBot
 Allow: /
 
-# Anthropic Claude
+# Anthropic Claude — Browsing temps réel
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-Web
+Allow: /
+
+# Google AI Overviews / Search Generative Experience
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# ============================================================
+# CRAWLERS IA — ENTRAÎNEMENT : BLOQUÉ
+# Protection du contenu sans sacrifier la visibilité
+# ============================================================
+
 # Google-Extended = entraînement Gemini UNIQUEMENT (pas Search)
-# Bloquer pour protéger le contenu tout en gardant Google Search
 User-agent: Google-Extended
 Disallow: /
 
-# OpenAI entraînement (différent du browsing)
+# OpenAI entraînement (différent du browsing ChatGPT-User)
 User-agent: GPTBot
 Disallow: /
 
-# ByteDance / TikTok — entraînement uniquement, pas de valeur
+# Anthropic entraînement
+User-agent: anthropic-ai
+Disallow: /
+
+# ByteDance / TikTok — entraînement uniquement
 User-agent: Bytespider
 Disallow: /
 
-# Common Crawl — dataset ouvert, pas de valeur business directe
+# Common Crawl — dataset ouvert
 User-agent: CCBot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# Meta AI training
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
 Disallow: /
 
 # ============================================================
