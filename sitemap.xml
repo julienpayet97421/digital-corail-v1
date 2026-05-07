@@ -1,20 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   sitemap.xml — digitalcorail.com
-  Généré selon Claude SEO v1.7.0
   Note : <priority> et <changefreq> sont ignorés par Google (confirmé).
   Seuls <loc> et <lastmod> ont un impact réel.
-  Dernière mise à jour : 2026-03-30
+  Dernière mise à jour : 2026-05-07
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <!-- ============================================================
-       PAGE PRINCIPALE
+       PAGE PRINCIPALE — avec vidéos YouTube indexées
        ============================================================ -->
   <url>
     <loc>https://www.digitalcorail.com/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
+
+    <!-- Vidéo principale paysage : Immobilier Prestige -->
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cWJAon4VwTk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Vidéo Prestige Immobilier — Digital Corail La Réunion</video:title>
+      <video:description>Exemple de vidéo immobilier premium produite par intelligence artificielle par Digital Corail à La Réunion. Format paysage, livré en 48/72h.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=cWJAon4VwTk</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/cWJAon4VwTk</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- Short 1 -->
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YQGEpzARsmA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Short Vidéo IA — Digital Corail La Réunion</video:title>
+      <video:description>Vidéo courte format vertical produite par IA pour les réseaux sociaux. Production Digital Corail, agence IA à La Réunion 974.</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/YQGEpzARsmA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/YQGEpzARsmA</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- Short 2 -->
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/_FhR4s-gK9c/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Short Vidéo Prestige IA — Digital Corail Île de La Réunion</video:title>
+      <video:description>Vidéo courte verticale par intelligence artificielle pour communication digitale, format Instagram Reels et TikTok.</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/_FhR4s-gK9c</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/_FhR4s-gK9c</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+
+    <!-- Short 3 -->
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/wgf3q2cYktQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Short Vidéo Revalorisation IA — Digital Corail La Réunion</video:title>
+      <video:description>Vidéo verticale produite par IA générative pour la communication des entreprises réunionnaises. Production Digital Corail, livraison 48/72h.</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/wgf3q2cYktQ</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/wgf3q2cYktQ</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+
+  <!-- ============================================================
+       PAGES INSTITUTIONNELLES — EXISTANTES
+       ============================================================ -->
+
+  <!-- Mentions légales (existe dans ton projet) -->
+  <url>
+    <loc>https://www.digitalcorail.com/mentions-legales</loc>
+    <lastmod>2026-05-07</lastmod>
   </url>
 
   <!-- ============================================================
@@ -26,25 +84,37 @@
   <!-- Service : Home Staging Virtuel -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/home-staging-virtuel-ia-reunion/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- Service : Vidéos IA Immobilier -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/videos-ia-immobilier-reunion/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- Service : Vidéos IA Automobile -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/videos-ia-automobile-reunion/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
+  </url> -->
+
+  <!-- Service : Vidéos IA Restaurants & Hôtels -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/videos-ia-restaurants-hotels-reunion/</loc>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- Service : Revalorisation Visuelle Luxe -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/revalorisation-visuelle-ia-luxe-reunion/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
+  </url> -->
+
+  <!-- Service : Visuels Réseaux Sociaux IA -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/visuels-reseaux-sociaux-ia-reunion/</loc>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- ============================================================
@@ -54,35 +124,54 @@
   <!-- Secteur Immobilier -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/immobilier-reunion/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- Secteur Automobile -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/automobile-reunion/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- ============================================================
-       PAGES INSTITUTIONNELLES — À CRÉER
+       PAGES VILLES — À CRÉER (SEO hyper-local)
        ============================================================ -->
 
-  <!-- À propos -->
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/agence-ia-saint-denis-reunion/</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url> -->
+
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/agence-ia-saint-pierre-reunion/</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url> -->
+
+  <!-- <url>
+    <loc>https://www.digitalcorail.com/agence-ia-saint-paul-reunion/</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url> -->
+
+  <!-- ============================================================
+       PAGES INSTITUTIONNELLES À CRÉER
+       ============================================================ -->
+
+  <!-- À propos (actuellement section ancrée #apropos) -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/a-propos/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- Contact -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/contact/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
   <!-- Portfolio / Réalisations -->
   <!-- <url>
     <loc>https://www.digitalcorail.com/realisations/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-05-07</lastmod>
   </url> -->
 
 </urlset>
